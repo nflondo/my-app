@@ -11,6 +11,25 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-05-22T20:29:08.21077415Z"
+    description: test plugin - new version
+    digest: 768e6d90c27602218366e10cb6e345193e8ea0161de8074e9e2ee574ddacc2e3
+    name: test
+    type: application
+    urls:
+    - assets/test/test-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
     appVersion: 0.1.0
     created: "2023-05-22T20:17:53.868004287Z"
     description: test plugin - from json
@@ -20,4 +39,4 @@ entries:
     urls:
     - assets/test/test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-22T20:17:53.866746493Z"
+generated: "2023-05-22T20:29:08.210057656Z"

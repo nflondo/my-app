@@ -1,7 +1,7 @@
 {
   "name": "test",
-  "description": "test plugin - from json",
-  "version": "0.1.0",
+  "description": "test plugin - new version",
+  "version": "0.1.1",
   "private": false,
   "rancher": true,
   "scripts": {

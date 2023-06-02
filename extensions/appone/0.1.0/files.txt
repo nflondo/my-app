@@ -1,0 +1,3 @@
+plugin/appone-0.1.0.umd.min.js
+plugin/appone-0.1.0.umd.min.js.map
+plugin/package.json

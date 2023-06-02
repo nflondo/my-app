@@ -1,5 +1,25 @@
 apiVersion: v1
 entries:
+  appone:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-02T20:29:47.029019003Z"
+    description: appone plugin
+    digest: 9d1416ada3fd42c9716b856a7d8d101f8a5877630a6bceecd6b5de19f1d19c82
+    name: appone
+    type: application
+    urls:
+    - assets/appone/appone-0.1.0.tgz
+    version: 0.1.0
   my-app:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -12,9 +32,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-06-02T17:24:15.361956826Z"
+    created: "2023-06-02T20:29:54.504376728Z"
     description: my-app test plugin
-    digest: 6a32ab5b547366b5b0fcfe71ee12c3eba5a782d6919baa76b1298c1fd0ad3339
+    digest: 61fec0adae9b3c02c912baa8510cd5d7d66f1ecd6521db57a1ae730f552a078b
     name: my-app
     type: application
     urls:
@@ -40,4 +60,4 @@ entries:
     urls:
     - assets/test/test-0.1.2.tgz
     version: 0.1.2
-generated: "2023-06-02T17:24:15.359995945Z"
+generated: "2023-06-02T20:29:54.503583624Z"

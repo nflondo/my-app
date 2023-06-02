@@ -1,5 +1,5 @@
 ## test extensions
-This is a test extension.  
+This my-app test extension.  
 
 Enjoy.
 

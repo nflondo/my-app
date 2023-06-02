@@ -1,7 +1,7 @@
 {
-  "name": "test",
-  "description": "test plugin",
-  "version": "0.1.2",
+  "name": "my-app",
+  "description": "my-app test plugin",
+  "version": "0.0.1",
   "private": false,
   "rancher": true,
   "scripts": {
